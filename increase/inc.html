@@ -23,50 +23,43 @@
   <body>
     <div class="container">
       <div class="row">
-        <h1 class="text-center">
-          Do you want it Multiplied?
-        </h1>
+          <h1>Do you want it Multiplied?</h1>
       </div>
     </div>
 
-<div class="container">
+<div class="container annoy-form">
   <div class="form-row">
   <form>
     <div class="form-group">
+
       <label for="FormControlInput">Your weapon</label>
       <input type="text" class="form-control form-control-lg" id="FormControlInput" placeholder="iloveannoyingyou" required>
+
     </div>
 
     <div class="form-group">
-      <label for="FormControlSelect">How Annoying?</label>
-      <select class="form-control form-control-lg" id="FormControlSelect">
-        <option>10</option>
-        <option>20</option>
-        <option>30</option>
-        <option>40</option>
-        <option>50</option>
-      </select>
-    </div>
+        <label for="FormControlSelect">How Annoying?</label>
+        <select class="form-control" id="FormControlSelect">
+          <option>10</option>
+          <option>20</option>
+          <option>30</option>
+          <option>40</option>
+          <option>50</option>
+        </select>
 
-    <div class="#">
-    <button type="submit" onclick="annoy()" class="btn btn-primary">Make My Day</button>
-    </div>
-
-    <div class="form-group">
-      <label for="FormControlTextarea">There You Go!</label>
-      <textarea class="form-control form-control-lg" id="FormControlTextarea" rows="3"></textarea>
     </div>
 
   </form>
+
+ <button onclick="annoy()" class="btn btn-primary">Make My Day</button>
+
+  <div class="form-group">
+        <label for="FormControlTextarea">There You Go!</label>
+        <textarea class="form-control form-control-lg" id="FormControlTextarea" rows="20"></textarea>
+    </div>
+
 </div>
 </div>
-
-
-<script>
-function annoy2() {
-  document.getElementById("FormControlTextarea").innerHTML = document.getElementById("FormControlInput");
-}
-</script>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
